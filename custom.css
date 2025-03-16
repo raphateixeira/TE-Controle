@@ -1,0 +1,13 @@
+.reveal {
+    background-color: #003366; /* Cor do fundo Copenhagen */
+    color: #FFFFFF; /* Cor do texto */
+}
+.reveal .slides section {
+    text-align: left;
+}
+.reveal h1, .reveal h2, .reveal h3 {
+    color: #66CCFF; /* Azul claro Dolphin */
+}
+.reveal .controls, .reveal .progress {
+    background-color: #0066CC; /* Azul vibrante para destaque */
+}

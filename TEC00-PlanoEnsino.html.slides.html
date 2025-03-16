@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>TEC00-PlanoEnsino slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>Exemplo slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7435,34 +7435,25 @@ main {
 <main>
 <div class="reveal">
 <div class="slides"><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=77d781e0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="T%C3%B3picos-Especiais-em-Sistemas-de-Controle"><strong>Tópicos Especiais em Sistemas de Controle</strong><a class="anchor-link" href="#T%C3%B3picos-Especiais-em-Sistemas-de-Controle">¶</a></h2><h3 id="Prof.-Dr.-Raphael-Teixeira">Prof. Dr. Raphael Teixeira<a class="anchor-link" href="#Prof.-Dr.-Raphael-Teixeira">¶</a></h3><h4 id="UFPA---CAMTUC---FEE">UFPA - CAMTUC - FEE<a class="anchor-link" href="#UFPA---CAMTUC---FEE">¶</a></h4><ul>
+<p>%% [markdown] slideshow={"slide_type": "slide"}</p>
+<h1 id="T%C3%B3picos-Especiais-em-Sistemas-de-Controle"><strong>Tópicos Especiais em Sistemas de Controle</strong><a class="anchor-link" href="#T%C3%B3picos-Especiais-em-Sistemas-de-Controle">¶</a></h1><h3 id="Prof.-Dr.-Raphael-Teixeira">Prof. Dr. Raphael Teixeira<a class="anchor-link" href="#Prof.-Dr.-Raphael-Teixeira">¶</a></h3><h3 id="Universidade-Federal-do-Par%C3%A1-(UFPA)">Universidade Federal do Pará (UFPA)<a class="anchor-link" href="#Universidade-Federal-do-Par%C3%A1-(UFPA)">¶</a></h3><ul>
 <li>Controle de sistemas dinâmicos avançado</li>
 <li>Técnicas modernas de aprendizado de máquina aplicadas ao controle</li>
 <li>Simulação e implementação em MATLAB/Python</li>
 </ul>
 <p>📌 <strong>Objetivo:</strong> Explorar métodos inovadores para controle de sistemas complexos.<br/>
 📌 <strong>Formato:</strong> Aulas teóricas e práticas com estudos de caso.</p>
+<hr/>
 </div>
 </div>
 </div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Vari%C3%A1veis-e-Tipos-de-Dados">Variáveis e Tipos de Dados<a class="anchor-link" href="#Vari%C3%A1veis-e-Tipos-de-Dados">¶</a></h2><p>Python possui diversos tipos de dados, como inteiros, floats, strings e listas.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fd203581">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7470,84 +7461,13 @@ main {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exemplo de variáveis</span>
-<span class="n">nome</span> <span class="o">=</span> <span class="s1">'Raphael'</span>
-<span class="n">idade</span> <span class="o">=</span> <span class="mi">35</span>
-<span class="n">altura</span> <span class="o">=</span> <span class="mf">1.75</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Nome: </span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s1">, Idade: </span><span class="si">{</span><span class="n">idade</span><span class="si">}</span><span class="s1">, Altura: </span><span class="si">{</span><span class="n">altura</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Comando para exportar como slides customizados</span>
+<span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>custom_jupyter_slides.ipynb<span class="w"> </span>--to<span class="w"> </span>slides<span class="w"> </span><span class="err">\</span>
+    <span class="o">--</span><span class="n">reveal</span><span class="o">-</span><span class="n">prefix</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">cdn</span><span class="o">.</span><span class="n">jsdelivr</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">npm</span><span class="o">/</span><span class="n">reveal</span><span class="o">.</span><span class="n">js</span><span class="o">@</span><span class="mi">4</span> \
+    <span class="o">--</span><span class="n">template</span><span class="o">=</span><span class="n">custom</span><span class="o">.</span><span class="n">tpl</span>
+        
 </pre></div>
 </div>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Estruturas-de-Controle">Estruturas de Controle<a class="anchor-link" href="#Estruturas-de-Controle">¶</a></h2><p>Podemos usar estruturas de controle como if-else e loops para manipular o fluxo de execução do código.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exemplo de estrutura de controle</span>
-<span class="n">numero</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'O número é par'</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'O número é ímpar'</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fun%C3%A7%C3%B5es-em-Python">Funções em Python<a class="anchor-link" href="#Fun%C3%A7%C3%B5es-em-Python">¶</a></h2><p>As funções permitem reutilizar código e estruturar melhor os programas.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Definição de uma função</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">saudacao</span><span class="p">(</span><span class="n">nome</span><span class="p">):</span>
-    <span class="k">return</span> <span class="sa">f</span><span class="s1">'Olá, </span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s1">!'</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">saudacao</span><span class="p">(</span><span class="s1">'Raphael'</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Conclus%C3%A3o">Conclusão<a class="anchor-link" href="#Conclus%C3%A3o">¶</a></h1><p>Python é uma linguagem versátil e acessível, ideal para iniciantes e para desenvolvimento avançado.</p>
-<p>Agora você já conhece os conceitos básicos!</p>
 </div>
 </div>
 </div>
