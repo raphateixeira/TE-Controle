@@ -5,7 +5,7 @@ Disciplina segundo semestre 2025.
 
 -[TE-Controle: 00 - Plano de Ensino](TEC00-PlanoEnsino.html.slides.html)
 
-```markdown
+
 # Tópicos em Controle de Sistemas: Inteligência Computacional Guiada por Dados
 
 ## 1. Introdução
@@ -61,6 +61,3 @@ Disciplina segundo semestre 2025.
 - Resumo dos principais conceitos abordados
 - Tendências futuras no controle de sistemas guiado por dados
 - Discussão sobre desafios e oportunidades
-```
-
-
