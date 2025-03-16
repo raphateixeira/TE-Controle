@@ -1,8 +1,8 @@
 import subprocess
 
 # Nome do arquivo de entrada e saída
-input_file = "slides_python.ipynb"
-output_file = "apresentacao_slides.html"
+input_file = "TEC00-PlanoEnsino.ipynb"
+output_file = "TEC00-PlanoEnsino.html"
 
 # Comando para converter o notebook para slides em HTML
 subprocess.run([
