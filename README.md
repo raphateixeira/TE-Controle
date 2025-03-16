@@ -3,4 +3,4 @@ Optativa - Tópicos Especiais em Sistemas de Controle
 
 Disciplina segundo semestre 2025.
 
--[AulaApresentacao](apresentacao_slides.html.slides.html)
+-[TE-Controle: 00 - Plano de Ensino](TEC00-PlanoEnsino.html.slides.html)
