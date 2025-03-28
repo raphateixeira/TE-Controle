@@ -3,8 +3,9 @@ Optativa - Tópicos Especiais em Sistemas de Controle
 
 Disciplina segundo semestre 2025. 
 
-Ofertada para as turmas de 2021 e 2022 da FEE.
 
 -[TE-Controle: 00 - Plano de Ensino](TEC00-PlanoEnsino.html.slides.html)
+
 -[TE-Controle: 01 - Representações dinâmicas](TEC01-RepresentacoesDinamicas.slides.html)
+
 -[TE-Controle: 02 - Identificação de sistemas](TEC00-PlanoEnsino.html.slides.html)
