@@ -1,0 +1,5 @@
+
+ python -m nbconvert TEC00-PlanoEnsino.ipynb --to slides
+ python -m nbconvert TEC01-RepresentacoesDinamicas.ipynb --to slides
+
+ 

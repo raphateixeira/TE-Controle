@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>Exemplo slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>TEC01-RepresentacoesDinamicas slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7435,25 +7435,128 @@ main {
 <main>
 <div class="reveal">
 <div class="slides"><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=77d781e0">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>%% [markdown] slideshow={"slide_type": "slide"}</p>
-<h1 id="T%C3%B3picos-Especiais-em-Sistemas-de-Controle"><strong>Tópicos Especiais em Sistemas de Controle</strong><a class="anchor-link" href="#T%C3%B3picos-Especiais-em-Sistemas-de-Controle">¶</a></h1><h3 id="Prof.-Dr.-Raphael-Teixeira">Prof. Dr. Raphael Teixeira<a class="anchor-link" href="#Prof.-Dr.-Raphael-Teixeira">¶</a></h3><h3 id="Universidade-Federal-do-Par%C3%A1-(UFPA)">Universidade Federal do Pará (UFPA)<a class="anchor-link" href="#Universidade-Federal-do-Par%C3%A1-(UFPA)">¶</a></h3><ul>
-<li>Controle de sistemas dinâmicos avançado</li>
-<li>Técnicas modernas de aprendizado de máquina aplicadas ao controle</li>
-<li>Simulação e implementação em MATLAB/Python</li>
-</ul>
-<p>📌 <strong>Objetivo:</strong> Explorar métodos inovadores para controle de sistemas complexos.<br/>
-📌 <strong>Formato:</strong> Aulas teóricas e práticas com estudos de caso.</p>
+<h1 id="Modelagem-de-Sistemas-Din%C3%A2micos">Modelagem de Sistemas Dinâmicos<a class="anchor-link" href="#Modelagem-de-Sistemas-Din%C3%A2micos">¶</a></h1><p>Uma Introdução às Representações Fundamentais</p>
 <hr/>
+<p>Seu Nome / Instituição
+Data: Março de 2025</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fd203581">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="O-que-s%C3%A3o-Sistemas-Din%C3%A2micos?">O que são Sistemas Dinâmicos?<a class="anchor-link" href="#O-que-s%C3%A3o-Sistemas-Din%C3%A2micos?">¶</a></h2><ul>
+<li>Sistemas cujo estado <strong>evolui ao longo do tempo</strong>.</li>
+<li>Frequentemente descritos por como suas variáveis mudam (derivadas, diferenças).</li>
+<li><strong>Entrada (Input):</strong> Estímulo ou controle aplicado ao sistema (e.g., força, tensão, comando).</li>
+<li><strong>Saída (Output):</strong> Resposta ou comportamento observado do sistema (e.g., posição, corrente, velocidade).</li>
+<li><strong>Estado:</strong> Um conjunto mínimo de variáveis que descreve completamente a condição do sistema em qualquer instante de tempo.</li>
+</ul>
+<p><strong>Exemplos:</strong> Circuitos elétricos, sistemas mecânicos (massa-mola), processos químicos, sistemas biológicos, modelos econômicos.</p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Roteiro">Roteiro<a class="anchor-link" href="#Roteiro">¶</a></h2><ol>
+<li><strong>Equações Diferenciais:</strong> A linguagem fundamental.</li>
+<li><strong>Resposta ao Impulso:</strong> A "impressão digital" do sistema.</li>
+<li><strong>Funções de Transferência:</strong> Visão no domínio da frequência/Laplace.</li>
+<li><strong>Modelo de Espaço de Estados:</strong> Representação matricial moderna.</li>
+</ol>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.-Equa%C3%A7%C3%B5es-Diferenciais-Ordin%C3%A1rias-(EDOs)">1. Equações Diferenciais Ordinárias (EDOs)<a class="anchor-link" href="#1.-Equa%C3%A7%C3%B5es-Diferenciais-Ordin%C3%A1rias-(EDOs)">¶</a></h2><ul>
+<li><strong>Descrição:</strong> Relacionam a saída <code>y(t)</code> e suas derivadas com a entrada <code>u(t)</code> e suas derivadas.</li>
+<li><strong>Base:</strong> Leis físicas fundamentais (Leis de Newton, Leis de Kirchhoff, etc.).</li>
+<li><strong>Forma Geral (Linear Invariante no Tempo - LTI):</strong><div class="highlight"><pre><span></span>a<span class="nb">_</span>n <span class="k">\frac</span><span class="nb">{</span>d<span class="nb">^</span>n y<span class="nb">}{</span>dt<span class="nb">^</span>n<span class="nb">}</span> + a<span class="nb">_{</span>n-1<span class="nb">}</span> <span class="k">\frac</span><span class="nb">{</span>d<span class="nb">^{</span>n-1<span class="nb">}</span> y<span class="nb">}{</span>dt<span class="nb">^{</span>n-1<span class="nb">}}</span> + <span class="k">\dots</span> + a<span class="nb">_</span>1 <span class="k">\frac</span><span class="nb">{</span>dy<span class="nb">}{</span>dt<span class="nb">}</span> + a<span class="nb">_</span>0 y(t) = b<span class="nb">_</span>m <span class="k">\frac</span><span class="nb">{</span>d<span class="nb">^</span>m u<span class="nb">}{</span>dt<span class="nb">^</span>m<span class="nb">}</span> + <span class="k">\dots</span> + b<span class="nb">_</span>1 <span class="k">\frac</span><span class="nb">{</span>du<span class="nb">}{</span>dt<span class="nb">}</span> + b<span class="nb">_</span>0 u(t)
+</pre></div>
+</li>
+<li><strong>Ordem do Sistema:</strong> A maior derivada da saída (<code>n</code>).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Exemplo:-Sistema-Massa-Mola-Amortecedor">Exemplo: Sistema Massa-Mola-Amortecedor<a class="anchor-link" href="#Exemplo:-Sistema-Massa-Mola-Amortecedor">¶</a></h3><ul>
+<li><p><strong>Variáveis:</strong></p>
+<ul>
+<li><code>y(t)</code>: Posição da massa</li>
+<li><code>F(t)</code>: Força aplicada (entrada <code>u(t)</code>)</li>
+</ul>
+</li>
+<li><p><strong>Lei de Newton (ΣF = ma):</strong></p>
+<div class="highlight"><pre><span></span>F(t) - F<span class="nb">_{</span>mola<span class="nb">}</span> - F<span class="nb">_{</span>amortecedor<span class="nb">}</span> = m <span class="k">\ddot</span><span class="nb">{</span>y<span class="nb">}</span>(t)
+</pre></div>
+<p>Onde <code>F_mola = k y(t)</code> e <code>F_amortecedor = c \dot{y}(t)</code>.</p>
+</li>
+<li><p><strong>Equação Diferencial:</strong></p>
+<div class="highlight"><pre><span></span>m <span class="k">\ddot</span><span class="nb">{</span>y<span class="nb">}</span>(t) + c <span class="k">\dot</span><span class="nb">{</span>y<span class="nb">}</span>(t) + k y(t) = F(t)
+</pre></div>
+<p>(Sistema de 2ª ordem)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Exemplo:-Circuito-RC-S%C3%A9rie">Exemplo: Circuito RC Série<a class="anchor-link" href="#Exemplo:-Circuito-RC-S%C3%A9rie">¶</a></h3><ul>
+<li><p><strong>Variáveis:</strong></p>
+<ul>
+<li><code>v_C(t)</code>: Tensão no capacitor (saída <code>y(t)</code>)</li>
+<li><code>v_S(t)</code>: Tensão da fonte (entrada <code>u(t)</code>)</li>
+</ul>
+</li>
+<li><p><strong>Lei de Kirchhoff das Tensões (LKT):</strong></p>
+<div class="highlight"><pre><span></span>v<span class="nb">_</span>S(t) = v<span class="nb">_</span>R(t) + v<span class="nb">_</span>C(t)
+</pre></div>
+<p>Onde <code>v_R(t) = R i(t)</code> e <code>i(t) = C \frac{dv_C}{dt}</code>.</p>
+</li>
+<li><p><strong>Equação Diferencial:</strong></p>
+<div class="highlight"><pre><span></span>RC <span class="k">\frac</span><span class="nb">{</span>dv<span class="nb">_</span>C(t)<span class="nb">}{</span>dt<span class="nb">}</span> + v<span class="nb">_</span>C(t) = v<span class="nb">_</span>S(t)
+</pre></div>
+<p>(Sistema de 1ª ordem)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7461,13 +7564,419 @@ main {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Comando para exportar como slides customizados</span>
-<span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>custom_jupyter_slides.ipynb<span class="w"> </span>--to<span class="w"> </span>slides<span class="w"> </span><span class="err">\</span>
-    <span class="o">--</span><span class="n">reveal</span><span class="o">-</span><span class="n">prefix</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">cdn</span><span class="o">.</span><span class="n">jsdelivr</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">npm</span><span class="o">/</span><span class="n">reveal</span><span class="o">.</span><span class="n">js</span><span class="o">@</span><span class="mi">4</span> \
-    <span class="o">--</span><span class="n">template</span><span class="o">=</span><span class="n">custom</span><span class="o">.</span><span class="n">tpl</span>
-        
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exemplo Opcional: Simulação de um sistema de 1a ordem</span>
+<span class="c1"># import numpy as np</span>
+<span class="c1"># from scipy.integrate import odeint</span>
+<span class="c1"># import matplotlib.pyplot as plt</span>
+
+<span class="c1"># def sistema_rc(vc, t, R, C, vs_func):</span>
+<span class="c1">#     vs = vs_func(t)</span>
+<span class="c1">#     dvcdt = (vs - vc) / (R * C)</span>
+<span class="c1">#     return dvcdt</span>
+
+<span class="c1"># # Parâmetros</span>
+<span class="c1"># R = 1000  # Ohms</span>
+<span class="c1"># C = 1e-6  # Farads</span>
+<span class="c1"># vc0 = 0   # Condição inicial</span>
+
+<span class="c1"># # Tempo</span>
+<span class="c1"># t = np.linspace(0, 5 * R * C, 500) # Simula por 5 constantes de tempo</span>
+
+<span class="c1"># # Entrada: Degrau unitário em t=0</span>
+<span class="c1"># def vs_degrau(t):</span>
+<span class="c1">#     return 1.0 if t &gt;= 0 else 0.0</span>
+<span class="c1"># vs_func = np.vectorize(vs_degrau)</span>
+
+<span class="c1"># # Solução</span>
+<span class="c1"># sol = odeint(sistema_rc, vc0, t, args=(R, C, vs_func))</span>
+
+<span class="c1"># # Plot</span>
+<span class="c1"># plt.plot(t, sol, label='v_C(t)')</span>
+<span class="c1"># plt.plot(t, vs_func(t), '--', label='v_S(t) (Entrada)')</span>
+<span class="c1"># plt.xlabel('Tempo (s)')</span>
+<span class="c1"># plt.ylabel('Tensão (V)')</span>
+<span class="c1"># plt.title('Resposta ao Degrau - Circuito RC')</span>
+<span class="c1"># plt.legend()</span>
+<span class="c1"># plt.grid(True)</span>
+<span class="c1"># plt.show()</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.-Resposta-ao-Impulso-h(t)">2. Resposta ao Impulso <code>h(t)</code><a class="anchor-link" href="#2.-Resposta-ao-Impulso-h(t)">¶</a></h2><ul>
+<li><strong>Definição:</strong> A saída <code>y(t)</code> do sistema quando a entrada é um <strong>impulso Dirac</strong> <code>δ(t)</code> e as <strong>condições iniciais são nulas</strong>.<div class="highlight"><pre><span></span>u(t) = <span class="k">\delta</span>(t) <span class="k">\quad</span> <span class="k">\implies</span> <span class="k">\quad</span> y(t) = h(t) <span class="k">\quad</span> <span class="k">\text</span><span class="nb">{</span>(com C.I. nulas)<span class="nb">}</span>
+</pre></div>
+</li>
+<li><strong>Impulso Dirac <code>δ(t)</code>:</strong> Uma função "idealizada" com área unitária concentrada em <code>t=0</code>. Pense nela como um pulso muito curto e muito alto.</li>
+<li><strong>Significado:</strong> <code>h(t)</code> captura a dinâmica intrínseca do sistema, como ele reage naturalmente a uma perturbação instantânea.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="A-Import%C3%A2ncia-da-Resposta-ao-Impulso">A Importância da Resposta ao Impulso<a class="anchor-link" href="#A-Import%C3%A2ncia-da-Resposta-ao-Impulso">¶</a></h3><ul>
+<li><p><strong>Caracterização Completa (Sistemas LTI):</strong> Para sistemas Lineares e Invariantes no Tempo (LTI), a resposta ao impulso <code>h(t)</code> contém <em>toda</em> a informação sobre a dinâmica do sistema.</p>
+</li>
+<li><p><strong>Convolução:</strong> A saída <code>y(t)</code> para <em>qualquer</em> entrada <code>u(t)</code> pode ser calculada pela integral de convolução:</p>
+<div class="highlight"><pre><span></span>y(t) = u(t) * h(t) = <span class="k">\int_</span><span class="nb">{</span>-<span class="k">\infty</span><span class="nb">}^{</span><span class="k">\infty</span><span class="nb">}</span> u(<span class="k">\tau</span>) h(t - <span class="k">\tau</span>) d<span class="k">\tau</span>
+</pre></div>
+<p>Isso significa: se conhecemos <code>h(t)</code>, podemos prever a resposta para qualquer entrada!</p>
+</li>
+<li><p><strong>Causalidade:</strong> Para sistemas físicos, <code>h(t) = 0</code> para <code>t &lt; 0</code> (a saída não pode anteceder a entrada).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exemplo Opcional: Calcular h(t) para o sistema RC</span>
+<span class="c1"># from scipy.signal import impulse</span>
+<span class="c1"># import matplotlib.pyplot as plt</span>
+<span class="c1"># import numpy as np</span>
+
+<span class="c1"># Sistema RC: RC * y' + y = u</span>
+<span class="c1"># Reescrevendo: y' + (1/RC)*y = (1/RC)*u</span>
+<span class="c1"># Coeficientes do denominador: [1, 1/(RC)]</span>
+<span class="c1"># Coeficientes do numerador: [1/(RC)]</span>
+
+<span class="c1"># R = 1000; C = 1e-6</span>
+<span class="c1"># RC = R * C</span>
+<span class="c1"># num = [1/RC]</span>
+<span class="c1"># den = [1, 1/RC]</span>
+
+<span class="c1"># system = (num, den)</span>
+<span class="c1"># t, h = impulse(system)</span>
+
+<span class="c1"># plt.plot(t, h)</span>
+<span class="c1"># plt.title('Resposta ao Impulso h(t) - Circuito RC')</span>
+<span class="c1"># plt.xlabel('Tempo (s)')</span>
+<span class="c1"># plt.ylabel('Amplitude (1/s)') # Unidade depende da definição exata</span>
+<span class="c1"># plt.grid(True)</span>
+<span class="c1"># plt.show()</span>
+
+<span class="c1"># print(f"Teoricamente, h(t) = (1/RC) * exp(-t/RC) para t&gt;=0. Valor em t=0: {1/RC:.2f}")</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.-Fun%C3%A7%C3%A3o-de-Transfer%C3%AAncia-H(s)">3. Função de Transferência <code>H(s)</code><a class="anchor-link" href="#3.-Fun%C3%A7%C3%A3o-de-Transfer%C3%AAncia-H(s)">¶</a></h2><ul>
+<li><strong>Domínio:</strong> Transformada de Laplace (<code>s</code>). Converte EDOs em equações algébricas.</li>
+<li><strong>Definição 1:</strong> É a Transformada de Laplace da resposta ao impulso <code>h(t)</code>.<div class="highlight"><pre><span></span>H(s) = <span class="k">\mathcal</span><span class="nb">{</span>L<span class="nb">}</span><span class="k">\{</span>h(t)<span class="k">\}</span> = <span class="k">\int_</span><span class="nb">{</span>0<span class="nb">}^{</span><span class="k">\infty</span><span class="nb">}</span> h(t) e<span class="nb">^{</span>-st<span class="nb">}</span> dt
+</pre></div>
+</li>
+<li><strong>Definição 2:</strong> É a razão entre a Transformada de Laplace da saída <code>Y(s)</code> e a Transformada de Laplace da entrada <code>U(s)</code>, assumindo <strong>condições iniciais nulas</strong>.<div class="highlight"><pre><span></span>H(s) = <span class="k">\frac</span><span class="nb">{</span>Y(s)<span class="nb">}{</span>U(s)<span class="nb">}</span> <span class="k">\quad</span> <span class="k">\text</span><span class="nb">{</span>(com C.I. nulas)<span class="nb">}</span>
+</pre></div>
+</li>
+<li><strong>Conexão:</strong> A convolução no tempo <code>y(t) = h(t) * u(t)</code> se torna uma multiplicação no domínio de Laplace <code>Y(s) = H(s) U(s)</code>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Obtendo-H(s)-a-partir-da-EDO">Obtendo <code>H(s)</code> a partir da EDO<a class="anchor-link" href="#Obtendo-H(s)-a-partir-da-EDO">¶</a></h3><ol>
+<li>Pegue a EDO do sistema (LTI).</li>
+<li>Aplique a Transformada de Laplace em ambos os lados.</li>
+<li>Use a propriedade da derivada: <code>L{d^k y / dt^k} = s^k Y(s)</code> (assumindo C.I. nulas).</li>
+<li>Isole a razão <code>Y(s) / U(s)</code>. O resultado é <code>H(s)</code>.</li>
+</ol>
+<p><strong>Exemplo (Sistema Massa-Mola-Amortecedor):</strong>
+<code>m y'' + c y' + k y = u</code>
+Aplicando Laplace:
+<code>m s^2 Y(s) + c s Y(s) + k Y(s) = U(s)</code>
+<code>(m s^2 + c s + k) Y(s) = U(s)</code></p>
+<div class="highlight"><pre><span></span>H(s) = <span class="k">\frac</span><span class="nb">{</span>Y(s)<span class="nb">}{</span>U(s)<span class="nb">}</span> = <span class="k">\frac</span><span class="nb">{</span>1<span class="nb">}{</span>m s<span class="nb">^</span>2 + c s + k<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Polos-e-Zeros">Polos e Zeros<a class="anchor-link" href="#Polos-e-Zeros">¶</a></h3><p><code>H(s)</code> é geralmente uma função racional:</p>
+<div class="highlight"><pre><span></span>H(s) = K <span class="k">\frac</span><span class="nb">{</span>(s - z<span class="nb">_</span>1)(s - z<span class="nb">_</span>2)...(s - z<span class="nb">_</span>m)<span class="nb">}{</span>(s - p<span class="nb">_</span>1)(s - p<span class="nb">_</span>2)...(s - p<span class="nb">_</span>n)<span class="nb">}</span>
+</pre></div>
+<ul>
+<li><strong>Zeros (<code>z_i</code>):</strong> Raízes do numerador. Frequências (complexas) onde a resposta do sistema é zero.</li>
+<li><strong>Polos (<code>p_i</code>):</strong> Raízes do denominador. Frequências (complexas) onde a "energia" do sistema pode crescer indefinidamente.</li>
+</ul>
+<p><strong>Importância dos Polos:</strong></p>
+<ul>
+<li>Determinam a <strong>estabilidade</strong> do sistema:<ul>
+<li>Sistema estável: Todos os polos têm parte real negativa (estão no semiplano esquerdo do plano complexo).</li>
+<li>Sistema instável: Pelo menos um polo tem parte real positiva.</li>
+<li>Sistema marginalmente estável: Polos no eixo imaginário (parte real zero), sem repetição.</li>
+</ul>
+</li>
+<li>Influenciam a forma da resposta temporal (oscilações, decaimento).</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exemplo Opcional: Usar a biblioteca 'control' ou 'scipy.signal'</span>
+<span class="c1"># from scipy.signal import TransferFunction</span>
+<span class="c1"># import matplotlib.pyplot as plt</span>
+<span class="c1"># import numpy as np</span>
+
+<span class="c1"># # Sistema Massa-Mola-Amortecedor (m=1, c=0.5, k=1)</span>
+<span class="c1"># m = 1</span>
+<span class="c1"># c = 0.5</span>
+<span class="c1"># k = 1</span>
+<span class="c1"># num = [1]</span>
+<span class="c1"># den = [m, c, k]</span>
+<span class="c1"># H = TransferFunction(num, den)</span>
+
+<span class="c1"># print(f"Função de Transferência:\n{H}")</span>
+<span class="c1"># print(f"Polos: {H.poles}")</span>
+<span class="c1"># print(f"Zeros: {H.zeros}")</span>
+
+<span class="c1"># # Plot Polos e Zeros (requer 'control' ou plot manual)</span>
+<span class="c1"># try:</span>
+<span class="c1">#    from control.matlab import pzmap</span>
+<span class="c1">#    pzmap(H, plot=True, grid=True)</span>
+<span class="c1">#    plt.title('Diagrama de Polos e Zeros')</span>
+<span class="c1"># except ImportError:</span>
+<span class="c1">#    print("\nInstale a biblioteca 'control' para plotar pzmap: pip install control")</span>
+<span class="c1">#    # Plot manual simples</span>
+<span class="c1">#    plt.figure()</span>
+<span class="c1">#    plt.scatter(np.real(H.poles), np.imag(H.poles), marker='x', color='red', s=100, label='Polos')</span>
+<span class="c1">#    if H.zeros.size &gt; 0:</span>
+<span class="c1">#       plt.scatter(np.real(H.zeros), np.imag(H.zeros), marker='o', color='blue', s=100, facecolors='none', label='Zeros')</span>
+<span class="c1">#    plt.axhline(0, color='black', lw=0.5)</span>
+<span class="c1">#    plt.axvline(0, color='black', lw=0.5)</span>
+<span class="c1">#    plt.grid(True)</span>
+<span class="c1">#    plt.xlabel('Real')</span>
+<span class="c1">#    plt.ylabel('Imaginário')</span>
+<span class="c1">#    plt.title('Diagrama de Polos e Zeros (Manual)')</span>
+<span class="c1">#    plt.legend()</span>
+<span class="c1">#    plt.axis('equal') # Garante aspecto correto</span>
+<span class="c1">#    plt.show()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="4.-Modelo-de-Espa%C3%A7o-de-Estados">4. Modelo de Espaço de Estados<a class="anchor-link" href="#4.-Modelo-de-Espa%C3%A7o-de-Estados">¶</a></h2><ul>
+<li><strong>Alternativa às EDOs de alta ordem e Funções de Transferência.</strong></li>
+<li>Baseado em um conjunto de <strong>Equações Diferenciais de 1ª Ordem</strong>.</li>
+<li>Particularmente útil para:<ul>
+<li>Sistemas <strong>MIMO</strong> (Múltiplas Entradas, Múltiplas Saídas).</li>
+<li>Análise de propriedades internas do sistema (não apenas a relação entrada-saída).</li>
+<li>Projeto de controle moderno (observadores de estado, controle ótimo, etc.).</li>
+<li>Simulação computacional.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Defini%C3%A7%C3%A3o">Definição<a class="anchor-link" href="#Defini%C3%A7%C3%A3o">¶</a></h3><p>Um sistema LTI é descrito por duas equações matriciais:</p>
+<p><strong>1. Equação de Estado:</strong> Descreve a evolução das variáveis de estado <code>x(t)</code>.</p>
+<div class="highlight"><pre><span></span><span class="k">\dot</span><span class="nb">{</span><span class="k">\mathbf</span><span class="nb">{</span>x<span class="nb">}}</span>(t) = <span class="k">\mathbf</span><span class="nb">{</span>A<span class="nb">}</span> <span class="k">\mathbf</span><span class="nb">{</span>x<span class="nb">}</span>(t) + <span class="k">\mathbf</span><span class="nb">{</span>B<span class="nb">}</span> <span class="k">\mathbf</span><span class="nb">{</span>u<span class="nb">}</span>(t)
+</pre></div>
+<p><strong>2. Equação de Saída:</strong> Relaciona a saída <code>y(t)</code> com os estados e a entrada.</p>
+<div class="highlight"><pre><span></span><span class="k">\mathbf</span><span class="nb">{</span>y<span class="nb">}</span>(t) = <span class="k">\mathbf</span><span class="nb">{</span>C<span class="nb">}</span> <span class="k">\mathbf</span><span class="nb">{</span>x<span class="nb">}</span>(t) + <span class="k">\mathbf</span><span class="nb">{</span>D<span class="nb">}</span> <span class="k">\mathbf</span><span class="nb">{</span>u<span class="nb">}</span>(t)
+</pre></div>
+<ul>
+<li><code>x(t)</code>: Vetor de estado (n x 1)</li>
+<li><code>u(t)</code>: Vetor de entrada (p x 1)</li>
+<li><code>y(t)</code>: Vetor de saída (q x 1)</li>
+<li><code>A</code>: Matriz de estado (n x n)</li>
+<li><code>B</code>: Matriz de entrada (n x p)</li>
+<li><code>C</code>: Matriz de saída (q x n)</li>
+<li><code>D</code>: Matriz de alimentação direta (q p)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Vari%C3%A1veis-de-Estado">Variáveis de Estado<a class="anchor-link" href="#Vari%C3%A1veis-de-Estado">¶</a></h3><ul>
+<li><strong>O que são?</strong> Um conjunto mínimo de variáveis cuja conhecimento em <code>t=t_0</code>, junto com a entrada <code>u(t)</code> para <code>t ≥ t_0</code>, determina unicamente o comportamento do sistema para <code>t ≥ t_0</code>.</li>
+<li><strong>Escolha:</strong> Não é única! Diferentes escolhas levam a diferentes matrizes (A, B, C, D), mas descrevem o mesmo sistema.</li>
+<li><strong>Exemplo Comum:</strong> Para EDOs de ordem <code>n</code>, as variáveis de estado podem ser escolhidas como a saída e suas primeiras <code>n-1</code> derivadas:
+<code>x_1 = y</code>, <code>x_2 = dy/dt</code>, ..., <code>x_n = d^(n-1)y / dt^(n-1)</code> (Forma Canônica de Controlabilidade ou Observabilidade são outras escolhas comuns).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Rela%C3%A7%C3%A3o-com-a-Fun%C3%A7%C3%A3o-de-Transfer%C3%AAncia">Relação com a Função de Transferência<a class="anchor-link" href="#Rela%C3%A7%C3%A3o-com-a-Fun%C3%A7%C3%A3o-de-Transfer%C3%AAncia">¶</a></h3><p>É possível converter entre as representações (assumindo SISO e C.I. nulas):</p>
+<ul>
+<li><p><strong>Espaço de Estados -&gt; Função de Transferência:</strong></p>
+<div class="highlight"><pre><span></span>H(s) = <span class="k">\mathbf</span><span class="nb">{</span>C<span class="nb">}</span> (s<span class="k">\mathbf</span><span class="nb">{</span>I<span class="nb">}</span> - <span class="k">\mathbf</span><span class="nb">{</span>A<span class="nb">}</span>)<span class="nb">^{</span>-1<span class="nb">}</span> <span class="k">\mathbf</span><span class="nb">{</span>B<span class="nb">}</span> + <span class="k">\mathbf</span><span class="nb">{</span>D<span class="nb">}</span>
+</pre></div>
+<p>Onde <code>I</code> é a matriz identidade.</p>
+</li>
+<li><p><strong>Função de Transferência -&gt; Espaço de Estados:</strong></p>
+<ul>
+<li>Existem várias "realizações" ou formas canônicas (controlável, observável, diagonal) que resultam em diferentes matrizes A, B, C, D para a mesma H(s).</li>
+<li>Bibliotecas como <code>scipy.signal</code> e <code>control</code> possuem funções para realizar essas conversões (<code>tf2ss</code>, <code>ss2tf</code>).</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exemplo Opcional: Converter TF para SS e vice-versa</span>
+<span class="c1"># from scipy.signal import TransferFunction, tf2ss, ss2tf</span>
+
+<span class="c1"># # H(s) do Massa-Mola-Amortecedor (m=1, c=0.5, k=1)</span>
+<span class="c1"># num_tf = [1]</span>
+<span class="c1"># den_tf = [1, 0.5, 1]</span>
+<span class="c1"># H = TransferFunction(num_tf, den_tf)</span>
+<span class="c1"># print(f"H(s) original:\n{H}")</span>
+
+<span class="c1"># # Converter para Espaço de Estados (Forma Canônica Controlável por padrão)</span>
+<span class="c1"># A, B, C, D = tf2ss(num_tf, den_tf)</span>
+<span class="c1"># print("\nModelo de Espaço de Estados (tf2ss):")</span>
+<span class="c1"># print(f"A =\n{A}")</span>
+<span class="c1"># print(f"B =\n{B}")</span>
+<span class="c1"># print(f"C =\n{C}")</span>
+<span class="c1"># print(f"D =\n{D}")</span>
+
+<span class="c1"># # Converter de volta para Função de Transferência</span>
+<span class="c1"># num_ss, den_ss = ss2tf(A, B, C, D)</span>
+<span class="c1"># H_rec = TransferFunction(num_ss, den_ss)</span>
+<span class="c1"># print(f"\nH(s) recuperada (ss2tf):\n{H_rec}")</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Resumo-das-Representa%C3%A7%C3%B5es">Resumo das Representações<a class="anchor-link" href="#Resumo-das-Representa%C3%A7%C3%B5es">¶</a></h2><table>
+<thead>
+<tr>
+<th>Representação</th>
+<th>Domínio</th>
+<th>Vantagens</th>
+<th>Desvantagens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Equação Diferencial</strong></td>
+<td>Tempo</td>
+<td>Descrição física fundamental, intuitiva.</td>
+<td>Difícil de resolver analiticamente para ordens altas.</td>
+</tr>
+<tr>
+<td><strong>Resposta ao Impulso</strong></td>
+<td>Tempo</td>
+<td>Caracterização completa (LTI), base para convolução.</td>
+<td>Pode ser difícil de obter/usar diretamente.</td>
+</tr>
+<tr>
+<td><strong>Função de Transferência</strong></td>
+<td>Laplace (<code>s</code>)</td>
+<td>Equações algébricas, análise de estabilidade (polos), freq. response.</td>
+<td>Requer C.I. nulas, primariamente para SISO LTI.</td>
+</tr>
+<tr>
+<td><strong>Espaço de Estados</strong></td>
+<td>Tempo</td>
+<td>Poderosa para MIMO, C.I. não nulas, estados internos, controle moderno.</td>
+<td>Menos intuitiva inicialmente, escolha de estados.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Perguntas?">Perguntas?<a class="anchor-link" href="#Perguntas?">¶</a></h2>
 </div>
 </div>
 </div>
