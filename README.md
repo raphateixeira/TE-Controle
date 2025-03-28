@@ -1,17 +1,21 @@
 # TE-Controle
 Optativa - Tópicos Especiais em Sistemas de Controle
 
-Disciplina segundo semestre 2025.
+Disciplina segundo semestre 2025. 
+
+Ofertada para as turmas de 2021 e 2022 da FEE.
 
 -[TE-Controle: 00 - Plano de Ensino](TEC00-PlanoEnsino.html.slides.html)
 
 
-# Tópicos em Controle de Sistemas: Inteligência Computacional Guiada por Dados
+# Tópicos em sistemas de controle:
 
 ## 1. Introdução
-- Visão geral da disciplina
-- Importância da inteligência computacional aplicada ao controle de sistemas
-- Conceitos básicos e motivação
+- Modelagem baseada em leis físicas;
+- Representações de modelos dinâmicos;
+    - Equações diferenciais;
+    - Função de transferência;
+    - Modelos de estado;
 
 ## 2. Identificação de Sistemas
 ### 2.1 Modelos ARX (Auto-Regressive with eXogenous Inputs)
